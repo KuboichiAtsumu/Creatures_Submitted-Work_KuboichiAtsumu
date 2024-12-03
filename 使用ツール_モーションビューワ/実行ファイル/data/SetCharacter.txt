@@ -1,0 +1,139 @@
+#------------------------------------------------------------------------------
+# キャラクター情報
+#------------------------------------------------------------------------------
+MOVE	0.80
+JUMP	12.00
+
+PARTSSET
+	INDEX	0
+	PATH	data/PARTS/center.x
+	PARENT	-1
+	HALF	0
+	POS	0.00 28.00 0.00
+	ROT	0.00 0.00 0.00
+END_PARTSSET
+
+PARTSSET
+	INDEX	1
+	PATH	data/PARTS/face.x
+	PARENT	0
+	HALF	0
+	POS	0.00 0.00 0.00
+	ROT	0.00 0.00 0.00
+END_PARTSSET
+
+PARTSSET
+	INDEX	2
+	PATH	data/PARTS/armUR.x
+	PARENT	1
+	HALF	0
+	POS	-22.00 18.00 0.00
+	ROT	0.00 0.00 0.00
+END_PARTSSET
+
+PARTSSET
+	INDEX	3
+	PATH	data/PARTS/armDR.x
+	PARENT	2
+	HALF	0
+	POS	-13.00 0.00 0.00
+	ROT	0.00 0.00 0.00
+END_PARTSSET
+
+PARTSSET
+	INDEX	4
+	PATH	data/PARTS/handR.x
+	PARENT	3
+	HALF	0
+	POS	-15.00 0.00 0.00
+	ROT	0.00 0.00 0.00
+END_PARTSSET
+
+PARTSSET
+	INDEX	5
+	PATH	data/PARTS/armUL.x
+	PARENT	1
+	HALF	0
+	POS	22.00 18.00 0.00
+	ROT	0.00 0.00 0.00
+END_PARTSSET
+
+PARTSSET
+	INDEX	6
+	PATH	data/PARTS/armDL.x
+	PARENT	5
+	HALF	0
+	POS	13.00 0.00 0.00
+	ROT	0.00 0.00 0.00
+END_PARTSSET
+
+PARTSSET
+	INDEX	7
+	PATH	data/PARTS/handL.x
+	PARENT	6
+	HALF	0
+	POS	15.00 0.00 0.00
+	ROT	0.00 0.00 0.00
+END_PARTSSET
+
+PARTSSET
+	INDEX	8
+	PATH	data/PARTS/legUR.x
+	PARENT	1
+	HALF	1
+	POS	-9.00 3.00 0.00
+	ROT	0.00 0.00 0.00
+END_PARTSSET
+
+PARTSSET
+	INDEX	9
+	PATH	data/PARTS/legDR.x
+	PARENT	8
+	HALF	1
+	POS	0.00 -14.50 0.00
+	ROT	0.00 0.00 0.00
+END_PARTSSET
+
+PARTSSET
+	INDEX	10
+	PATH	data/PARTS/footR.x
+	PARENT	9
+	HALF	1
+	POS	0.00 -4.00 0.00
+	ROT	0.00 0.00 0.00
+END_PARTSSET
+
+PARTSSET
+	INDEX	11
+	PATH	data/PARTS/legUL.x
+	PARENT	1
+	HALF	1
+	POS	9.00 3.00 0.00
+	ROT	0.00 0.00 0.00
+END_PARTSSET
+
+PARTSSET
+	INDEX	12
+	PATH	data/PARTS/legDL.x
+	PARENT	11
+	HALF	1
+	POS	0.00 -14.50 0.00
+	ROT	0.00 0.00 0.00
+END_PARTSSET
+
+PARTSSET
+	INDEX	13
+	PATH	data/PARTS/footL.x
+	PARENT	12
+	HALF	1
+	POS	0.00 -4.00 0.00
+	ROT	0.00 0.00 0.00
+END_PARTSSET
+
+END_PARTS
+
+#------------------------------------------------------------------------------
+# モーション情報
+#------------------------------------------------------------------------------
+
+END_MOTION
